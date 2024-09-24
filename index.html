@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chipset</title>
+        <link rel="icon" href="slike/chipset.jpg">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
@@ -13,9 +14,10 @@
             <img src="slike/1.jpg" alt="slika chipseta" class="img">
             <p class="p1">Chipset</p>
             <pre>
-                <p class="p2">Chipseti so možgani matične plošče.
+                <p class="p2">Kaj je chipset
+                    Chipseti so integrirani čipi na matični plošči in drugih komponentih
 					Povezujejo vse komponente
-					in upravljajo podatke med CPE, GPE in RAM.
+					in upravljajo pretok podatkov med CPE, GPE in RAM.
                 </p>
             </pre>
             <p class="p1">Kje se chipseti uporabljajo</p>
@@ -27,14 +29,17 @@
             </pre>
             <p class="p1">Northbridge</p>
             <pre>
-                <p class="p2">Northbridge je uporabljen za komunikacijo med procesorjem in RAM-om 
+                <p class="p2">Northbridge je uporabljen za hitro komunikacijo med procesorjem in RAM-om, GPU-om. 
+                    Sodobni northbridge je sedaj integriran v CPU. To zmanjša zakasnitev in izboljša hitrost sistema.
                 </p>
             </pre>
             <p class="p1">Southbridge</p>
             <pre>
-                <p class="p2">Southbridge je uporabljen za upravljanje I/O priključkov, kot so USB priključki in SATA konektorji 
+                <p class="p2">Southbridge je uporabljen za komunikacijo med CPU in počasnejšim komponenti
+                    dela skupaj z northbridge. Upravlja pretok podatkov med CPU in SATA, USB, Audio in BIOS
                 </p>
             </pre>
+            <img src="slike/NSB.JPG" alt="NSB" class="img">
             <p class="p1">Kaj je SoC</p>
             <pre>
                 <p class="p2">SoC ali System on Chip je najpomembnejši del telefona. Povezuje south in northbridge v en chipset
@@ -58,7 +63,7 @@
             </pre>
             <p class="p1">Kaj je QPI</p>
             <pre>
-                <p class="p2">QPI ali QuickPath Interconnect je nadomestil FSB
+                <p class="p2">QPI ali QuickPath Interconnect je hitrejša verzija FSB
                     začelo se je uporabljati leta 2008. Je izboljšana verzija FSB
                 </p>
             </pre>
@@ -68,12 +73,14 @@
 			HyperTransport je podoben QPI.
                 </p>
             </pre>
+            <img src="slike/HT.png" alt="HT" class="img">
             <p class="p1">Kaj je DMI</p>
             <pre>
                 <p class="p2">DMI ali Direct Media Interface omogoča povezavo med severnim mostom in procesorjem.
                     Začelo se je uporabljati leta 2004 in je bilo ustvarjeno od Intela
                 </p>
             </pre>
+            <img src="slike/DMI.php" alt="UMI" class="img">
             <p class="p1">Kaj je UMI</p>
             <pre>
                 <p class="p2">UMI ali Unified Media Interface omogoča povezavo med AMD APU in FCH.
@@ -82,16 +89,18 @@
             </pre>
             <p class="p1">Kaj je PCH</p>
             <pre>
-                <p class="p2">PCH ali Platform Controller Hub Združi južni in severni most v eno.
+                <p class="p2">PCH ali Platform Controller Hub nadomesti southbridge in northbridge in združi večino funkcij v en čip.
                     PCH je ustvaril intel leta 2009. Prvič se je pojavilo v Intel seriji 5
                 </p>
             </pre>
+            <img src="slike/PCH.JPG" alt="PCH" class="img">
             <p class="p1">Kaj je FCH</p>
             <pre>
                 <p class="p2">FCH ali Fusion controller hub so bili uporabljeni z AMD APU med letom
                     2011 in 2017. FCH je zelo podobn PCH
                 </p>
             </pre>
+            <img src="slike/FCH.JPG" alt="FCH" class="img">
             <p class="p1">Kviz</p>
             <pre>
                 <p class="p2"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_gEEShRvRXEqWdZsitCRcu3KLNARa_eHNmThPtFOomeEUGA/viewform?usp=sf_link" target="_blank">https://docs.google.com/forms/d/e/1FAIpQLSc_gEEShRvRXEqWdZsitCRcu3KLNARa_eHNmThPtFOomeEUGA/viewform?usp=sf_link</a>
@@ -109,11 +118,17 @@
             <pre>
 		<p class="p2">Vsi viri dostopni 20. 09. 2024
 		</p>
-                <p class="p2">
+                <p class="p2"> <!-- Viri -->
                     <a href="https://hp.com/us-en/shop/tech-takes/what-is-a-chipset" target="_blank">https://hp.com/us-en/shop/tech-takes/what-is-a-chipset</a>
                     <a href="https://techopedia.com/definition/2172/chipset" target="_blank">https://techopedia.com/definition/2172/chipset</a>
                     <a href="https://pcmag.com/encyclopedia/term/pc-chipset" target="_blank">https://pcmag.com/encyclopedia/term/pc-chipset</a>
+                    <a href="https://en.wikipedia.org/wiki/File:Intel_DH82H81_PCH.JPG" target="_blank">https://en.wikipedia.org/wiki/File:Intel_DH82H81_PCH.JPG</a>
                     <a href="https://openai.com/chatgpt" target="_blank">https://openai.com/chatgpt</a>
+                    <a href="https://ammitechnologies.com/chipset-que-es/" target="_blank">https://ammitechnologies.com/chipset-que-es/</a>
+                    <a href="http://kkfscs.weebly.com/uploads/1/4/1/8/14186235/763620418.jpg?331" target="_blank">http://kkfscs.weebly.com/uploads/1/4/1/8/14186235/763620418.jpg?331</a>
+                    <a href="https://www.researchgate.net/figure/HyperTransport-socket-interconnect-topol_fig1_49243266" target="_blank">https://www.researchgate.net/figure/HyperTransport-socket-interconnect-topol_fig1_49243266</a>
+                    <a href="https://www.audiosciencereview.com/forum/index.php?attachments/screenshot-2022-07-07-204341-png.217006/" target="_blank">https://www.audiosciencereview.com/forum/index.php?attachments/screenshot-2022-07-07-204341-png.217006/</a>
+                    <a href="https://www.pcstats.com/articleimages/201106/gbta75ud4h_amd-a753.jpg" target="_blank">https://www.pcstats.com/articleimages/201106/gbta75ud4h_amd-a753.jpg</a>
                     <a href="https://medium.com/@adamuharoun.7/what-you-need-to-know-about-mobile-phone-chipsets-fd8d1a535f8c" target="_blank">https://medium.com/@adamuharoun.7/what-you-need-to-know-about-mobile-phone-chipsets-fd8d1a535f8c</a>
                 </p>
             </pre>
